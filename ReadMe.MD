@@ -23,7 +23,7 @@ fizzBuzz(15) // returns:
 ```
 
 ## Rules
-To help you along in best practices for all the challenges going forward you are going to use the following Git workflow.
+To help you with best practices for all future challenges, you will use the following Git workflow.
 
 1. Fork this repo to your own Git
 2. Create your working branch using this naming convention:
@@ -43,7 +43,10 @@ git checkout -b feat/CC-challenge-1-fizz-buzz
 - Post your solution link in the challenge thread
 
 ## Dependencies
+- - This is written in Javascript so you will need to think about NPM and the packages you will need to add, like Jest for testing
 - I suggest you use Jest for testing
 - Use the .gitignore
+
+If you struggle with any part, write a post on LinkedIn and tag me!
 
 Good luck!
