@@ -1,0 +1,20 @@
+{
+  "name": "challenge-1",
+  "version": "1.0.0",
+  "description": "## Overview One you may have heard of before but we are starting with a common interview test for junior engineers.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^27.0.6"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.14"
+  }
+}
