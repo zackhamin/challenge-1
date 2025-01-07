@@ -3,5 +3,6 @@
 const Hello = require('../src/index');
 
 test('Returns New Arr', () => {
-  expect(Hello()).toBe([1, 2, "FizzBuzz", 4, "FizzBuzz", "FizzBuzz", 7, 8, "FizzBuzz", "FizzBuzz"]);
+  const arr =  [1, 2, "Fizz", 4, "Buzz", "Fizz", 7, 8, "Fizz", "Buzz", 11, "Fizz", 13, 14, "FizzBuzz"];
+  expect(Hello()).toStrictEqual(arr);
 });
